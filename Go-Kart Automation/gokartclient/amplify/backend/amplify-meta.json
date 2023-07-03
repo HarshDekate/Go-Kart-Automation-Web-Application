@@ -1,0 +1,58 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-gokartclient-dev-132419-authRole",
+      "UnauthRoleArn": "arn:aws:iam::879926805123:role/amplify-gokartclient-dev-132419-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::879926805123:role/amplify-gokartclient-dev-132419-authRole",
+      "Region": "ap-south-1",
+      "DeploymentBucketName": "amplify-gokartclient-dev-132419-deployment",
+      "UnauthRoleName": "amplify-gokartclient-dev-132419-unauthRole",
+      "StackName": "amplify-gokartclient-dev-132419",
+      "StackId": "arn:aws:cloudformation:ap-south-1:879926805123:stack/amplify-gokartclient-dev-132419/251a6290-9af3-11ed-bd7d-0ac5d923fac6",
+      "AmplifyAppId": "d2z5mtnwt6wuih"
+    }
+  },
+  "auth": {
+    "gokartclientcce1ef4b": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "frontendAuthConfig": {
+        "socialProviders": [],
+        "usernameAttributes": [
+          "EMAIL"
+        ],
+        "signupAttributes": [
+          "EMAIL"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyMinLength": 8,
+          "passwordPolicyCharacters": []
+        },
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      },
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-gokartclient-dev-132419-deployment/amplify-cfn-templates/auth/gokartclientcce1ef4b-cloudformation-template.json",
+        "logicalId": "authgokartclientcce1ef4b"
+      },
+      "lastPushTimeStamp": "2023-01-23T08:00:40.090Z",
+      "output": {
+        "UserPoolId": "ap-south-1_s4SEI4925",
+        "AppClientIDWeb": "cqsf6qbeq9rmftbmp12noe7n3",
+        "AppClientID": "6o7v2i75gtl70hmh7doakam0cd",
+        "IdentityPoolId": "ap-south-1:32a08ab8-4c77-455d-9470-f6a9a420b9e4",
+        "UserPoolArn": "arn:aws:cognito-idp:ap-south-1:879926805123:userpool/ap-south-1_s4SEI4925",
+        "IdentityPoolName": "gokartclientcce1ef4b_identitypool_cce1ef4b__dev",
+        "UserPoolName": "gokartclientcce1ef4b_userpool_cce1ef4b"
+      },
+      "lastPushDirHash": "tvAXqGGdK2lYf4a2xnAUYj3qMOI="
+    }
+  }
+}

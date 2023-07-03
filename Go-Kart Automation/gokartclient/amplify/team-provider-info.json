@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-gokartclient-dev-132419-authRole",
+      "UnauthRoleArn": "arn:aws:iam::879926805123:role/amplify-gokartclient-dev-132419-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::879926805123:role/amplify-gokartclient-dev-132419-authRole",
+      "Region": "ap-south-1",
+      "DeploymentBucketName": "amplify-gokartclient-dev-132419-deployment",
+      "UnauthRoleName": "amplify-gokartclient-dev-132419-unauthRole",
+      "StackName": "amplify-gokartclient-dev-132419",
+      "StackId": "arn:aws:cloudformation:ap-south-1:879926805123:stack/amplify-gokartclient-dev-132419/251a6290-9af3-11ed-bd7d-0ac5d923fac6",
+      "AmplifyAppId": "d2z5mtnwt6wuih"
+    },
+    "categories": {
+      "auth": {
+        "gokartclientcce1ef4b": {}
+      }
+    }
+  }
+}
